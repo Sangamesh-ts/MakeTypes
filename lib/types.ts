@@ -474,6 +474,7 @@ export class CRecordShape {
         return false;
       })
       .join("Or");
+    name = '_' + name;
     this._name = e.registerName(name);
     return this._name;
   }
