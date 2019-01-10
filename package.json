@@ -5,7 +5,7 @@
   "main": "lib/index.js",
   "types": "lib/index",
   "scripts": {
-    "prepublish": "tsc",
+    "prepare": "tsc",
     "generate:test": "node ./test/common/generateSamples.js",
     "build:test": "tsc -p test/tsconfig.json",
     "mocha": "mocha",
